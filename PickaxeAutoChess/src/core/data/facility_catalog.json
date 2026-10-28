@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Ballista Tower",
+    "facilityType": "Offensive",
+    "cost": 6,
+    "constructionRounds": 2,
+    "traits": ["Architect"],
+    "baseStats": {
+      "hp": 1200,
+      "atk": 60,
+      "def": 40,
+      "mdef": 40,
+      "ap": 0,
+      "manaRegen": 0,
+      "critChance": 0.1,
+      "critDamage": 0.5,
+      "damageReduction": 0,
+      "finalDamage": 0,
+      "lifesteal": 0
+    },
+    "attackRange": 4,
+    "icon": "🏹",
+    "desc": "Long-range defense tower dealing 5%/8%/12% max HP physical damage."
+  },
+  {
+    "name": "Flame Turret",
+    "facilityType": "Offensive",
+    "cost": 8,
+    "constructionRounds": 3,
+    "traits": ["Architect"],
+    "baseStats": {
+      "hp": 1500,
+      "atk": 80,
+      "def": 50,
+      "mdef": 50,
+      "ap": 0,
+      "manaRegen": 0,
+      "critChance": 0.1,
+      "critDamage": 0.5,
+      "damageReduction": 0,
+      "finalDamage": 0,
+      "lifesteal": 0
+    },
+    "attackRange": 2,
+    "icon": "🔥",
+    "desc": "Heavy defense turret firing flames dealing 6%/10%/15% max HP fire damage."
+  },
+  {
+    "name": "Healing Totem",
+    "facilityType": "Support",
+    "cost": 6,
+    "constructionRounds": 2,
+    "traits": ["Architect"],
+    "baseStats": {
+      "hp": 1000,
+      "atk": 0,
+      "def": 30,
+      "mdef": 30,
+      "ap": 0,
+      "manaRegen": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "damageReduction": 0,
+      "finalDamage": 0,
+      "lifesteal": 0
+    },
+    "attackRange": 0,
+    "icon": "💚",
+    "desc": "Support totem restoring 3%/5%/8% max HP to all allies every 2 seconds."
+  },
+  {
+    "name": "Shield Generator",
+    "facilityType": "Support",
+    "cost": 8,
+    "constructionRounds": 2,
+    "traits": ["Architect"],
+    "baseStats": {
+      "hp": 1200,
+      "atk": 0,
+      "def": 60,
+      "mdef": 60,
+      "ap": 0,
+      "manaRegen": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "damageReduction": 0,
+      "finalDamage": 0,
+      "lifesteal": 0
+    },
+    "attackRange": 0,
+    "icon": "🛡️",
+    "desc": "Grants +20/+35/+50 DEF/MDEF and a 100/200/350 shield to all allies during combat."
+  },
+  {
+    "name": "Command Post",
+    "facilityType": "Support",
+    "cost": 10,
+    "constructionRounds": 3,
+    "traits": ["Architect"],
+    "baseStats": {
+      "hp": 1500,
+      "atk": 0,
+      "def": 40,
+      "mdef": 40,
+      "ap": 0,
+      "manaRegen": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "damageReduction": 0,
+      "finalDamage": 0,
+      "lifesteal": 0
+    },
+    "attackRange": 0,
+    "icon": "🚩",
+    "desc": "Tactical post increasing all allies' ATK and AP by +20%/+35%/+50% during combat."
+  },
+  {
+    "name": "Gold Mine",
+    "facilityType": "Resource",
+    "cost": 6,
+    "constructionRounds": 2,
+    "traits": ["Architect"],
+    "baseStats": {
+      "hp": 800,
+      "atk": 0,
+      "def": 20,
+      "mdef": 20,
+      "ap": 0,
+      "manaRegen": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "damageReduction": 0,
+      "finalDamage": 0,
+      "lifesteal": 0
+    },
+    "attackRange": 0,
+    "icon": "⛏️",
+    "desc": "Generates +3/+6/+10 bonus Gold at round resolution."
+  },
+  {
+    "name": "Alchemy Lab",
+    "facilityType": "Resource",
+    "cost": 8,
+    "constructionRounds": 3,
+    "traits": ["Architect"],
+    "baseStats": {
+      "hp": 900,
+      "atk": 0,
+      "def": 25,
+      "mdef": 25,
+      "ap": 0,
+      "manaRegen": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "damageReduction": 0,
+      "finalDamage": 0,
+      "lifesteal": 0
+    },
+    "attackRange": 0,
+    "icon": "🧪",
+    "desc": "Generates +2/+4/+7 Gold and +2/+4/+6 XP at round resolution."
+  }
+]

@@ -1,0 +1,338 @@
+{
+  "Blunt Sword": {
+    "desc": "A heavy iron blade. Increases physical power.",
+    "effect": "+10% ATK",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Bow": {
+    "desc": "A flexible longbow. Increases attack speed.",
+    "effect": "+10% Attack Speed",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Chestplate": {
+    "desc": "Reinforced steel plating. Grants bonus defense.",
+    "effect": "+20 DEF",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Mana Crystal": {
+    "desc": "A shimmering blue crystal that accelerates mana regeneration.",
+    "effect": "+6 Mana Regen",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Magic Orb": {
+    "desc": "A swirling sphere of arcane energy. Boosts magic power.",
+    "effect": "+10% AP",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Cloak": {
+    "desc": "A shadowy enchanted cloak. Provides magic resistance.",
+    "effect": "+20 MDEF",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Dagger": {
+    "desc": "A sharp, lightweight blade. Increases critical chance.",
+    "effect": "+10% Critical Chance",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Belt": {
+    "desc": "A sturdy leather belt. Grants bonus health.",
+    "effect": "+150 HP",
+    "color": "#94a3b8",
+    "tier": "component"
+  },
+  "Sovereign's Edge": {
+    "desc": "A royal blade forged from pure strength.",
+    "effect": "+25% ATK",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Sage's Spear": {
+    "desc": "A balanced spear for the warrior-scholar.",
+    "effect": "+15% ATK, +6 Mana Regen",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Aether Blade": {
+    "desc": "A blade infused with both physical and magical energy.",
+    "effect": "+15% ATK, +15% AP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Colossus Sunderer": {
+    "desc": "A massive weapon that strikes with incredible speed.",
+    "effect": "+15% ATK, +25% Attack Speed",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Gloomward Shroud": {
+    "desc": "Armor combining offense and defense.",
+    "effect": "+15% ATK, +35 DEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Vampiric Greatsword": {
+    "desc": "A dark sword offering power and magic protection.",
+    "effect": "+15% ATK, +35 MDEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Ruinous Edge": {
+    "desc": "A cruel blade that finds weak points.",
+    "effect": "+15% ATK, +30% Crit",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Hero's Crest": {
+    "desc": "A champion's emblem for strength and vitality.",
+    "effect": "+15% ATK, +250 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Aura of Clarity": {
+    "desc": "Twin mana crystals creating a wellspring of energy.",
+    "effect": "+12 Mana Regen",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Archmage's Codex": {
+    "desc": "A tome of immense arcane knowledge.",
+    "effect": "+6 Mana Regen, +20% AP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Stormcharged Bow": {
+    "desc": "A bow crackling with electric energy.",
+    "effect": "+6 Mana Regen, +25% AS",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Vanguard's Vow": {
+    "desc": "A paladin's promise made manifest.",
+    "effect": "+6 Mana Regen, +35 DEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Aura of Redemption": {
+    "desc": "Radiant energy shielding the mind.",
+    "effect": "+6 Mana Regen, +35 MDEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Chalice of Justice": {
+    "desc": "A holy chalice granting clarity and precision.",
+    "effect": "+6 Mana Regen, +30% Crit",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Guardian's Pendant": {
+    "desc": "An amulet worn by protectors.",
+    "effect": "+6 Mana Regen, +250 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Archmage's Crown": {
+    "desc": "The pinnacle of magical regalia.",
+    "effect": "+30% AP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Berserker's Glaive": {
+    "desc": "A wild weapon channeling fury into rapid strikes.",
+    "effect": "+15% AP, +25% AS",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Crown of Valor": {
+    "desc": "A crown for battle-mages at the front lines.",
+    "effect": "+15% AP, +35 DEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Static Ward": {
+    "desc": "An arcane barrier deflecting hostile magic.",
+    "effect": "+15% AP, +35 MDEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Spellweaver's Gloves": {
+    "desc": "Gloves woven with spell-threads.",
+    "effect": "+15% AP, +30% Crit",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Burning Grimoire": {
+    "desc": "A forbidden tome of fire magic.",
+    "effect": "+15% AP, +250 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Marksman's Longbow": {
+    "desc": "A masterwork bow firing at blistering speeds.",
+    "effect": "+50% AS",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Titan's Resolve": {
+    "desc": "Speed and endurance of a fortress.",
+    "effect": "+25% AS, +35 DEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Zephyr's Tempest": {
+    "desc": "Wind-forged speed with magic shielding.",
+    "effect": "+25% AS, +35 MDEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Shredding Arrow": {
+    "desc": "An arrow finding every weakness.",
+    "effect": "+25% AS, +30% Crit",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Stinger Bow": {
+    "desc": "A venomous bow with survivability.",
+    "effect": "+25% AS, +250 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Thornmail Vest": {
+    "desc": "A fortress of spikes and steel.",
+    "effect": "+80 DEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Gargoyle Stoneplate": {
+    "desc": "Balanced protection against all harm.",
+    "effect": "+45 DEF, +45 MDEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Stalwart Shield": {
+    "desc": "A shield enabling devastating counter-strikes.",
+    "effect": "+35 DEF, +30% Crit",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Sunfire Cape": {
+    "desc": "A burning cape granting armor and vitality.",
+    "effect": "+35 DEF, +250 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Dragon's Scale": {
+    "desc": "A scale from an ancient dragon.",
+    "effect": "+80 MDEF",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Mithril Cloak": {
+    "desc": "A lightweight cloak of incredible magic resistance.",
+    "effect": "+35 MDEF, +30% Crit",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Evenshroud": {
+    "desc": "Dark fabric balancing protection and endurance.",
+    "effect": "+35 MDEF, +250 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Gambler's Dice": {
+    "desc": "Risky dice increasing critical potential.",
+    "effect": "+60% Crit",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Shattering Hammer": {
+    "desc": "A hammer crushing armor and fortifying.",
+    "effect": "+30% Crit, +250 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Warmog's Armor": {
+    "desc": "Legendary armor granting immense health.",
+    "effect": "+500 HP",
+    "color": "#f59e0b",
+    "tier": "completed"
+  },
+  "Relic Shard": {
+    "desc": "A fragment of an ancient relic. Empowers the bearer with residual age-old energy.",
+    "effect": "Permanently grants +25 max HP to the equipped unit.",
+    "color": "#8B5CF6",
+    "tier": "ancient-t1"
+  },
+  "Timeworn Amulet": {
+    "desc": "An amulet that has witnessed centuries of battle. It shields the wearer from harm.",
+    "effect": "Permanently grants +8 DEF and +8 MDEF to the equipped unit.",
+    "color": "#7C3AED",
+    "tier": "ancient-t2"
+  },
+  "Crown of Eons": {
+    "desc": "A crown worn by ancient sovereigns. It commands the flow of battle.",
+    "effect": "Permanently grants +15% Damage Amplification to the equipped unit.",
+    "color": "#6D28D9",
+    "tier": "ancient-t3"
+  },
+  "Scepter of Ages": {
+    "desc": "A scepter containing the condensed wisdom of forgotten eras.",
+    "effect": "Permanently grants +20% ATK and +20% AP to the equipped unit.",
+    "color": "#5B21B6",
+    "tier": "ancient-t4"
+  },
+  "Ark of Eternity": {
+    "desc": "The ultimate relic \u2014 a fragment of creation itself.",
+    "effect": "Permanently grants +500 HP, +20 DEF, +20 MDEF, and +25% Damage Amp to the equipped unit.",
+    "color": "#4C1D95",
+    "tier": "ancient-t5"
+  },
+  "Uxtil's Leap": {
+    "desc": "A shimmering leap of ancient energy. Greatly accelerates mana.",
+    "effect": "+5 Mana Regen/sec. On Tomb Raider: mana cost reduced to 0/45.",
+    "color": "#8B5CF6",
+    "tier": "ancient"
+  },
+  "Darkest Light": {
+    "desc": "Dark protective light that feeds on enemy attention.",
+    "effect": "+40 DEF, +40 MDEF, +1% dmg reduction per attacker. On Stone Protector: taunts 3 farthest enemies too.",
+    "color": "#7C3AED",
+    "tier": "ancient"
+  },
+  "True Uxtil's Leap": {
+    "desc": "The perfected leap \u2014 pure accelerated energy.",
+    "effect": "+50% ATK, +5 Mana Regen/sec. On Ancient units: -20 max mana.",
+    "color": "#6D28D9",
+    "tier": "ancient-true"
+  },
+  "True Darkest Light": {
+    "desc": "The perfected dark light that commands enemy focus.",
+    "effect": "4% dmg reduction per attacker. 4 farthest enemies target wearer, -10% their damage.",
+    "color": "#5B21B6",
+    "tier": "ancient-true"
+  },
+  "Helios's Cascade": {
+    "desc": "A cascade of ancient solar power. Burns through all defenses.",
+    "effect": "+90% AP. Damage inflicts -40% DEF/MDEF & -33% healing. On Runecarver: skills activate Sunlight (50% AP to all enemies).",
+    "color": "#F59E0B",
+    "tier": "ancient-legendary"
+  },
+  "Pinnacle": {
+    "desc": "The ultimate ancient relic. Absolute power.",
+    "effect": "+10000 HP, 99% dmg reduction, 50 mana regen/sec. Battle start: all enemies become 1-star. Skill use: Annihilate (100% max HP of 3 targets).",
+    "color": "#EF4444",
+    "tier": "ancient-pinnacle"
+  },
+  "Lesser Duplicator": {
+    "desc": "A magical device that duplicates a unit from your bench.",
+    "effect": "Place on a 1/2/3-cost bench unit to spawn a 1-star copy.",
+    "color": "#10B981",
+    "tier": "consumable"
+  }
+}

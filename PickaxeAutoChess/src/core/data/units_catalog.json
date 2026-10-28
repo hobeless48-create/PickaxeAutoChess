@@ -1,0 +1,1184 @@
+[
+  {
+    "name": "Vanguard Squire",
+    "cost": 1,
+    "faction": "Human",
+    "traits": [
+      "Cavalry Knight"
+    ],
+    "baseStats": {
+      "hp": 600,
+      "atk": 50,
+      "def": 30,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Shield Bash",
+      "desc": "Slams shield into the nearest enemy, dealing `[130% / 195% / 305%]` of ATK as Physical Damage and **stunning** the target for **1.5s**.",
+      "manaInfo": "(0/80)"
+    }
+  },
+  {
+    "name": "Archer Apprentice",
+    "cost": 1,
+    "faction": "Human",
+    "traits": [
+      "Rangers"
+    ],
+    "baseStats": {
+      "hp": 450,
+      "atk": 48,
+      "def": 15,
+      "mdef": 15
+    },
+    "skill": {
+      "name": "Steady Shot",
+      "desc": "Fires a piercing arrow at the farthest enemy, dealing `[150% / 225% / 330%]` of ATK as Physical Damage.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Royal Shieldbearer",
+    "cost": 2,
+    "faction": "Human",
+    "traits": [
+      "Royal Guard",
+      "Runesmith"
+    ],
+    "baseStats": {
+      "hp": 750,
+      "atk": 52,
+      "def": 40,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Fortify",
+      "desc": "Raises shield, granting self a `[220 / 380 / 600]` HP shield and granting all adjacent allies **+20 DEF** for **4s**.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Spellscribe",
+    "cost": 3,
+    "faction": "Human",
+    "traits": [
+      "Chrono Scholar"
+    ],
+    "baseStats": {
+      "hp": 650,
+      "atk": 42,
+      "def": 20,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Haste Rune",
+      "desc": "Inscribes a rune beneath the ally with the highest Attack Speed, boosting their Attack Speed by `[30% / 45% / 70%]` for **5s**.",
+      "manaInfo": "(20/90)"
+    }
+  },
+  {
+    "name": "Cavalry Captain",
+    "cost": 4,
+    "faction": "Human",
+    "traits": [
+      "Cavalry Knight",
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 1000,
+      "atk": 88,
+      "def": 50,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Lance Charge",
+      "desc": "Charges the farthest enemy, dealing `[260% / 380% / 580%]` of ATK as Physical Damage and **knocking back** all enemies in the charge path by **1 hex**.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "High Commander",
+    "cost": 5,
+    "faction": "Human",
+    "traits": [
+      "Royal Guard",
+      "Mercenary"
+    ],
+    "baseStats": {
+      "hp": 1150,
+      "atk": 95,
+      "def": 60,
+      "mdef": 45
+    },
+    "skill": {
+      "name": "Commanding Rally",
+      "desc": "Rallies all allies: grants `[250 / 430 / 800]` HP shield and **+20% / +30% / +50% Damage Amplification** for **6s**, and simultaneously **stuns all enemies** for **1s**.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Relic Squire",
+    "cost": 1,
+    "faction": "Ancient",
+    "traits": [
+      "Runesmith"
+    ],
+    "baseStats": {
+      "hp": 600,
+      "atk": 46,
+      "def": 30,
+      "mdef": 25
+    },
+    "skill": {
+      "name": "Warding Seal",
+      "desc": "Activates a runic barrier equal to `[180 / 310 / 490]` HP for **4s**, reflecting **15%** of incoming basic-attack damage while active.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "Tomb Raider",
+    "cost": 1,
+    "faction": "Ancient",
+    "traits": [
+      "Rogues"
+    ],
+    "baseStats": {
+      "hp": 500,
+      "atk": 52,
+      "def": 15,
+      "mdef": 15
+    },
+    "skill": {
+      "name": "Quick Slash",
+      "desc": "Leaps behind the target, dealing `[140% / 205% / 320%]` of ATK as Physical Damage and generating **+15 Mana**.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Ancient Scribe",
+    "cost": 2,
+    "faction": "Ancient",
+    "traits": [
+      "Chrono Scholar"
+    ],
+    "baseStats": {
+      "hp": 575,
+      "atk": 38,
+      "def": 20,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Time Lock",
+      "desc": "Fires a temporal orb at the nearest enemy, **pausing their mana generation for 3s** and dealing `[165% / 245% / 385%]` of AP as Magic Damage.",
+      "manaInfo": "(30/100)"
+    }
+  },
+  {
+    "name": "Stone Protector",
+    "cost": 2,
+    "faction": "Ancient",
+    "traits": [
+      "Royal Guard"
+    ],
+    "baseStats": {
+      "hp": 775,
+      "atk": 52,
+      "def": 40,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Relic Aegis",
+      "desc": "Braces for impact, gaining `[25 / 45 / 70]` flat DEF and MDEF for **5s** and taunting the nearest enemy.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Runecarver",
+    "cost": 3,
+    "faction": "Ancient",
+    "traits": [
+      "Runesmith",
+      "Card Gamblers"
+    ],
+    "baseStats": {
+      "hp": 700,
+      "atk": 48,
+      "def": 25,
+      "mdef": 40
+    },
+    "skill": {
+      "name": "Runic Cascade",
+      "desc": "Carves explosive sigils on the ground, dealing `[210% / 305% / 480%]` of AP as Magic Damage to all enemies in a **1-hex radius**.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "Relic Colossus",
+    "cost": 4,
+    "faction": "Ancient",
+    "traits": [
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 1100,
+      "atk": 90,
+      "def": 55,
+      "mdef": 40
+    },
+    "skill": {
+      "name": "Colossal Smash",
+      "desc": "Slams both fists down, dealing `[255% / 375% / 580%]` of ATK as Physical Damage and **stunning all enemies** in a **2-hex straight line** for **2s**.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Relic Titan",
+    "cost": 5,
+    "faction": "Ancient",
+    "traits": [
+      "Runesmith",
+      "Architect"
+    ],
+    "baseStats": {
+      "hp": 1200,
+      "atk": 95,
+      "def": 60,
+      "mdef": 50
+    },
+    "skill": {
+      "name": "Titan's Judgment",
+      "desc": "Smashes the ground with ancient power, dealing `[300% / 450% / 750%]` of ATK as Physical Damage to all adjacent enemies, granting self a `[300 / 500 / 900]` HP shield and **stunning** hit enemies for **2s**.",
+      "manaInfo": "(30/100)"
+    }
+  },
+  {
+    "name": "Merchant Guard",
+    "cost": 1,
+    "faction": "Noble",
+    "traits": [
+      "Cavalry Knight"
+    ],
+    "baseStats": {
+      "hp": 625,
+      "atk": 48,
+      "def": 30,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Guarded Cleave",
+      "desc": "Swings halberd in a short arc, dealing `[130% / 195% / 305%]` of ATK as Physical Damage and gaining **+15 DEF** for **4s**.",
+      "manaInfo": "(0/80)"
+    }
+  },
+  {
+    "name": "Tax Collector",
+    "cost": 2,
+    "faction": "Noble",
+    "traits": [
+      "Rogues"
+    ],
+    "baseStats": {
+      "hp": 575,
+      "atk": 62,
+      "def": 20,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Gold Extract",
+      "desc": "Backstabs the target, dealing `[185% / 270% / 425%]` of ATK as Physical Damage. If it **kills** the target, gain **+1 Gold**.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Aristocrat Duelist",
+    "cost": 3,
+    "faction": "Noble",
+    "traits": [
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 750,
+      "atk": 72,
+      "def": 30,
+      "mdef": 25
+    },
+    "skill": {
+      "name": "Noble Thrust",
+      "desc": "Pierces the target's vital spot, dealing `[220% / 320% / 500%]` of ATK as Physical Damage and **ignoring 30%** of the target's DEF.",
+      "manaInfo": "(0/55)"
+    }
+  },
+  {
+    "name": "Royal Alchemist",
+    "cost": 3,
+    "faction": "Noble",
+    "traits": [
+      "Plague Alchemist"
+    ],
+    "baseStats": {
+      "hp": 650,
+      "atk": 45,
+      "def": 20,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Midas Touch",
+      "desc": "Hurls a gilded elixir at the nearest enemy, dealing `[210% / 305% / 480%]` of AP as Magic Damage and **stunning** the target for **1.5s**.",
+      "manaInfo": "(0/90)"
+    }
+  },
+  {
+    "name": "Gilded Baron",
+    "cost": 4,
+    "faction": "Noble",
+    "traits": [
+      "Mercenary"
+    ],
+    "baseStats": {
+      "hp": 975,
+      "atk": 85,
+      "def": 40,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Bribe",
+      "desc": "Pelts the target with coins, dealing `[250% / 365% / 565%]` of ATK as Physical Damage and **disarming** the target (cannot basic attack) for **3s**.",
+      "manaInfo": "(0/80)"
+    }
+  },
+  {
+    "name": "Noble Duchess",
+    "cost": 5,
+    "faction": "Noble",
+    "traits": [
+      "High Clerics"
+    ],
+    "baseStats": {
+      "hp": 950,
+      "atk": 42,
+      "def": 25,
+      "mdef": 50
+    },
+    "skill": {
+      "name": "Gilded Blessing",
+      "desc": "Calls upon noble grace, healing all allies for `[20% / 35% / 70%]` of their **missing HP** and shielding each for `[250 / 430 / 800]` HP for **5s**.",
+      "manaInfo": "(40/120)"
+    }
+  },
+  {
+    "name": "Apprentice Blacksmith",
+    "cost": 1,
+    "faction": "Dwarven Forge",
+    "traits": [
+      "Vanguard Berserkers"
+    ],
+    "baseStats": {
+      "hp": 625,
+      "atk": 52,
+      "def": 25,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Hammer Strike",
+      "desc": "Smashes with a forge hammer, dealing `[140% / 210% / 325%]` of ATK as Physical Damage and **shredding** the target's DEF by **25%** for **4s**.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Dwarven Cannoneer",
+    "cost": 2,
+    "faction": "Dwarven Forge",
+    "traits": [
+      "Rangers"
+    ],
+    "baseStats": {
+      "hp": 550,
+      "atk": 58,
+      "def": 20,
+      "mdef": 15
+    },
+    "skill": {
+      "name": "Blackpowder Shell",
+      "desc": "Fires an explosive shell at the target, dealing `[170% / 250% / 390%]` of ATK as Physical Damage in a **1-hex blast** radius.",
+      "manaInfo": "(0/75)"
+    }
+  },
+  {
+    "name": "Forge Mason",
+    "cost": 3,
+    "faction": "Dwarven Forge",
+    "traits": [
+      "Architect"
+    ],
+    "baseStats": {
+      "hp": 825,
+      "atk": 62,
+      "def": 45,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Fortified Brick",
+      "desc": "Erects a barricade, granting self a `[280 / 460 / 750]` HP shield and granting all adjacent allies **+30 DEF** for **4s**.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "Ironbound Sentry",
+    "cost": 3,
+    "faction": "Dwarven Forge",
+    "traits": [
+      "Royal Guard"
+    ],
+    "baseStats": {
+      "hp": 875,
+      "atk": 65,
+      "def": 50,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Iron Will",
+      "desc": "Enters an iron defensive stance, reducing **all incoming damage** by `[20% / 30% / 45%]` for **4s** and taunting the nearest two enemies.",
+      "manaInfo": "(0/90)"
+    }
+  },
+  {
+    "name": "Shieldbreaker Berserker",
+    "cost": 4,
+    "faction": "Dwarven Forge",
+    "traits": [
+      "Vanguard Berserkers",
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 1025,
+      "atk": 88,
+      "def": 40,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Sunder",
+      "desc": "Delivers a devastating strike, dealing `[260% / 380% / 590%]` of ATK as Physical Damage. Deals **+50% bonus damage** if the target has an active shield.",
+      "manaInfo": "(0/75)"
+    }
+  },
+  {
+    "name": "Master Runesmith",
+    "cost": 5,
+    "faction": "Dwarven Forge",
+    "traits": [
+      "Runesmith",
+      "Architect"
+    ],
+    "baseStats": {
+      "hp": 1100,
+      "atk": 78,
+      "def": 55,
+      "mdef": 55
+    },
+    "skill": {
+      "name": "Runic Armament",
+      "desc": "Enchants all allied units with runic plating, granting each a `[280 / 490 / 900]` HP shield. While shielded, units **reflect 30%** of incoming basic-attack damage.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Cultist Initiate",
+    "cost": 1,
+    "faction": "Demonic Pact",
+    "traits": [
+      "Plague Alchemist"
+    ],
+    "baseStats": {
+      "hp": 525,
+      "atk": 42,
+      "def": 15,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Acid Spit",
+      "desc": "Spews acid at the nearest enemy, dealing `[130% / 195% / 305%]` of AP as Magic Damage and **shredding** the target's MDEF by **25%** for **4s**.",
+      "manaInfo": "(0/75)"
+    }
+  },
+  {
+    "name": "Blood Zealot",
+    "cost": 2,
+    "faction": "Demonic Pact",
+    "traits": [
+      "Vanguard Berserkers"
+    ],
+    "baseStats": {
+      "hp": 675,
+      "atk": 60,
+      "def": 25,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Frenzied Strike",
+      "desc": "Recklessly attacks the nearest enemy, dealing `[170% / 250% / 390%]` of ATK as Physical Damage and **restoring HP equal to 25%** of the damage dealt.",
+      "manaInfo": "(0/55)"
+    }
+  },
+  {
+    "name": "Shadow Warlock",
+    "cost": 3,
+    "faction": "Demonic Pact",
+    "traits": [
+      "Doom Harbingers"
+    ],
+    "baseStats": {
+      "hp": 700,
+      "atk": 48,
+      "def": 20,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Doom Edict",
+      "desc": "Seals a target's fate, dealing `[210% / 305% / 480%]` of AP as Magic Damage over **4s** (DoT). If the target **dies** during the effect, **summon a Skeleton Minion** (200 HP, 30 ATK).",
+      "manaInfo": "(0/80)"
+    }
+  },
+  {
+    "name": "Underworld Pitlord",
+    "cost": 4,
+    "faction": "Demonic Pact",
+    "traits": [
+      "Gladiators",
+      "Cavalry Knight"
+    ],
+    "baseStats": {
+      "hp": 1100,
+      "atk": 88,
+      "def": 50,
+      "mdef": 40
+    },
+    "skill": {
+      "name": "Abyssal Slam",
+      "desc": "Crashes down with twin axes, dealing `[255% / 375% / 580%]` of ATK as Physical Damage and **stunning** the target for **2s**.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Demon Summoner",
+    "cost": 4,
+    "faction": "Demonic Pact",
+    "traits": [
+      "High Clerics"
+    ],
+    "baseStats": {
+      "hp": 875,
+      "atk": 42,
+      "def": 25,
+      "mdef": 42
+    },
+    "skill": {
+      "name": "Demonic Circle",
+      "desc": "Tears open a shadow rift, summoning a **Demonic Sentinel** with `[350 / 600 / 1100]` HP and **30 base ATK** that absorbs enemy attacks and blocks the nearest hex to your backline.",
+      "manaInfo": "(20/120)"
+    }
+  },
+  {
+    "name": "Lord of Torment",
+    "cost": 5,
+    "faction": "Demonic Pact",
+    "traits": [
+      "Rogues",
+      "Doom Harbingers"
+    ],
+    "baseStats": {
+      "hp": 1100,
+      "atk": 105,
+      "def": 38,
+      "mdef": 38
+    },
+    "skill": {
+      "name": "Tormenting Sweep",
+      "desc": "Teleports to the highest-HP enemy and sweeps a shadow scythe, dealing `[300% / 440% / 700%]` of ATK as Physical Damage. Enemies at or **below 20% HP** are **instantly executed**.",
+      "manaInfo": "(30/85)"
+    }
+  },
+  {
+    "name": "Tower Novice",
+    "cost": 1,
+    "faction": "Magic Tower",
+    "traits": [
+      "Chrono Scholar"
+    ],
+    "baseStats": {
+      "hp": 475,
+      "atk": 35,
+      "def": 15,
+      "mdef": 25
+    },
+    "skill": {
+      "name": "Spark Shot",
+      "desc": "Launches a magic spark at the nearest enemy, dealing `[135% / 200% / 315%]` of AP as Magic Damage.",
+      "manaInfo": "(30/90)"
+    }
+  },
+  {
+    "name": "Frost Wielder",
+    "cost": 2,
+    "faction": "Magic Tower",
+    "traits": [
+      "Plague Alchemist"
+    ],
+    "baseStats": {
+      "hp": 575,
+      "atk": 40,
+      "def": 20,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Frostbite",
+      "desc": "Fires a frostbolt at the nearest enemy, dealing `[175% / 255% / 400%]` of AP as Magic Damage and **stunning** them for **1.5s**.",
+      "manaInfo": "(0/95)"
+    }
+  },
+  {
+    "name": "Storm Warden",
+    "cost": 3,
+    "faction": "Magic Tower",
+    "traits": [
+      "Runesmith"
+    ],
+    "baseStats": {
+      "hp": 825,
+      "atk": 52,
+      "def": 35,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Lightning Shield",
+      "desc": "Surges with electricity, gaining a `[220 / 370 / 600]` HP shield and dealing **60 Magic Damage** to any attacker that hits it while the shield holds.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "Arcane Illusionist",
+    "cost": 3,
+    "faction": "Magic Tower",
+    "traits": [
+      "Rogues"
+    ],
+    "baseStats": {
+      "hp": 650,
+      "atk": 48,
+      "def": 20,
+      "mdef": 25
+    },
+    "skill": {
+      "name": "Mirror Image",
+      "desc": "Blinks to a random adjacent hex, leaving an illusion that taunts the nearest enemy and detonates for `[120% / 175% / 275%]` of AP as Magic Damage before vanishing.",
+      "manaInfo": "(0/75)"
+    }
+  },
+  {
+    "name": "Battle Mage",
+    "cost": 4,
+    "faction": "Magic Tower",
+    "traits": [
+      "Gladiators",
+      "Cavalry Knight"
+    ],
+    "baseStats": {
+      "hp": 975,
+      "atk": 78,
+      "def": 45,
+      "mdef": 40
+    },
+    "skill": {
+      "name": "Spell Blade",
+      "desc": "Imbues weapon with arcane energy, dealing `[255% / 375% / 580%]` of AP as Magic Damage on the next basic attack and gaining **+30 DEF** for **3s**.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "High Archmage",
+    "cost": 5,
+    "faction": "Magic Tower",
+    "traits": [
+      "Chrono Scholar",
+      "Architect"
+    ],
+    "baseStats": {
+      "hp": 900,
+      "atk": 48,
+      "def": 25,
+      "mdef": 55
+    },
+    "skill": {
+      "name": "Time Distortion",
+      "desc": "Tears open a temporal rift over the battlefield. All allies gain **+50% Attack Speed**. All enemies are **Silenced** and take `[350% / 520% / 850%]` of AP as Magic Damage over **4s**.",
+      "manaInfo": "(50/130)"
+    }
+  },
+  {
+    "name": "Leaf Ranger",
+    "cost": 1,
+    "faction": "Sylvan Elves",
+    "traits": [
+      "Rangers"
+    ],
+    "baseStats": {
+      "hp": 475,
+      "atk": 50,
+      "def": 15,
+      "mdef": 15
+    },
+    "skill": {
+      "name": "Quick Arrow",
+      "desc": "Fires two rapid shots at the nearest enemy, dealing `[75% + 75% / 110% + 110% / 165% + 165%]` of ATK as Physical Damage per hit (total 150% / 220% / 330%).",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Forest Guardian",
+    "cost": 2,
+    "faction": "Sylvan Elves",
+    "traits": [
+      "Beast Tamer"
+    ],
+    "baseStats": {
+      "hp": 725,
+      "atk": 52,
+      "def": 35,
+      "mdef": 25
+    },
+    "skill": {
+      "name": "Vine Snare",
+      "desc": "Entangles the nearest enemy with vines, dealing `[155% / 230% / 360%]` of ATK as Physical Damage and **rooting** them in place for **2s**.",
+      "manaInfo": "(0/90)"
+    }
+  },
+  {
+    "name": "Shrine Priestess",
+    "cost": 2,
+    "faction": "Sylvan Elves",
+    "traits": [
+      "High Clerics"
+    ],
+    "baseStats": {
+      "hp": 525,
+      "atk": 36,
+      "def": 20,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Leaf Shower",
+      "desc": "Calls down a shower of sacred leaves, restoring `[180 / 310 / 495]` HP to the **2 lowest HP allies**.",
+      "manaInfo": "(40/100)"
+    }
+  },
+  {
+    "name": "Wind Dancer",
+    "cost": 3,
+    "faction": "Sylvan Elves",
+    "traits": [
+      "Rogues",
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 700,
+      "atk": 74,
+      "def": 25,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Blade Whirl",
+      "desc": "Spins dual blades in a close arc, dealing `[215% / 315% / 490%]` of ATK as Physical Damage and gaining **+20% Dodge Chance** for **4s**.",
+      "manaInfo": "(0/55)"
+    }
+  },
+  {
+    "name": "Elder Druid",
+    "cost": 4,
+    "faction": "Sylvan Elves",
+    "traits": [
+      "Beast Tamer",
+      "Chrono Scholar"
+    ],
+    "baseStats": {
+      "hp": 875,
+      "atk": 52,
+      "def": 30,
+      "mdef": 40
+    },
+    "skill": {
+      "name": "Nature's Grasp",
+      "desc": "Erupts vines from the ground in a **2-hex straight line**, dealing `[225% / 330% / 515%]` of AP as Magic Damage and **silencing** all hit enemies for **2s**.",
+      "manaInfo": "(30/110)"
+    }
+  },
+  {
+    "name": "Elf Monarch",
+    "cost": 5,
+    "faction": "Sylvan Elves",
+    "traits": [
+      "Rangers",
+      "Royal Guard"
+    ],
+    "baseStats": {
+      "hp": 1050,
+      "atk": 100,
+      "def": 40,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Solar Arrow",
+      "desc": "Nocks a solar-charged arrow and fires at the lowest HP enemy, dealing `[300% / 440% / 720%]` of ATK as Physical Damage. Enemies **below 15% HP** are **instantly executed**.",
+      "manaInfo": "(0/80)"
+    }
+  },
+  {
+    "name": "Crypt Skeleton",
+    "cost": 1,
+    "faction": "Necropolis Undead",
+    "traits": [
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 550,
+      "atk": 55,
+      "def": 20,
+      "mdef": 15
+    },
+    "skill": {
+      "name": "Jagged Swing",
+      "desc": "Swings a bone shard at the nearest enemy, dealing `[140% / 205% / 320%]` of ATK as Physical Damage and **restoring 80 HP**.",
+      "manaInfo": "(0/55)"
+    }
+  },
+  {
+    "name": "Wandering Ghost",
+    "cost": 2,
+    "faction": "Necropolis Undead",
+    "traits": [
+      "Rogues"
+    ],
+    "baseStats": {
+      "hp": 525,
+      "atk": 60,
+      "def": 15,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Haunt",
+      "desc": "Phases through the battlefield to strike the backline target, dealing `[170% / 250% / 390%]` of ATK as Physical Damage and **silencing** them for **2s**.",
+      "manaInfo": "(30/75)"
+    }
+  },
+  {
+    "name": "Plague Bearer",
+    "cost": 3,
+    "faction": "Necropolis Undead",
+    "traits": [
+      "Plague Alchemist"
+    ],
+    "baseStats": {
+      "hp": 825,
+      "atk": 52,
+      "def": 35,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Toxic Cloud",
+      "desc": "Releases a putrid cloud centered on self, dealing `[185% / 270% / 425%]` of AP as Magic Damage to all nearby enemies and applying a **33% healing reduction** for **5s**.",
+      "manaInfo": "(0/90)"
+    }
+  },
+  {
+    "name": "Grave Keeper",
+    "cost": 3,
+    "faction": "Necropolis Undead",
+    "traits": [
+      "Cavalry Knight",
+      "Royal Guard"
+    ],
+    "baseStats": {
+      "hp": 875,
+      "atk": 62,
+      "def": 45,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Grave Shield",
+      "desc": "Raises a shield of grave energy worth `[280 / 460 / 750]` HP. While the shield holds, adjacent enemies take **25 Magic Damage per second**.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Reaper of Souls",
+    "cost": 4,
+    "faction": "Necropolis Undead",
+    "traits": [
+      "Doom Harbingers",
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 975,
+      "atk": 90,
+      "def": 32,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Soul Harvest",
+      "desc": "Reaps through the target, dealing `[260% / 380% / 590%]` of ATK as Physical Damage. If the target **dies**, the Reaper **restores 30% of its max HP**.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Lich Lord",
+    "cost": 5,
+    "faction": "Necropolis Undead",
+    "traits": [
+      "High Clerics",
+      "Card Gamblers"
+    ],
+    "baseStats": {
+      "hp": 975,
+      "atk": 48,
+      "def": 28,
+      "mdef": 50
+    },
+    "skill": {
+      "name": "Death Wave",
+      "desc": "Unleashes a wave of necrotic energy across the board, dealing `[290% / 430% / 700%]` of AP as Magic Damage to all enemies and **healing all undead allies for 250 HP**.",
+      "manaInfo": "(40/120)"
+    }
+  },
+  {
+    "name": "Fire Breeder",
+    "cost": 1,
+    "faction": "Draconic Zealots",
+    "traits": [
+      "Runesmith"
+    ],
+    "baseStats": {
+      "hp": 575,
+      "atk": 46,
+      "def": 25,
+      "mdef": 20
+    },
+    "skill": {
+      "name": "Flame Ward",
+      "desc": "Cloaks self in flame, generating a `[140 / 240 / 380]` HP shield. While the shield holds, basic attacks deal an additional **+20 Magic Damage**.",
+      "manaInfo": "(0/80)"
+    }
+  },
+  {
+    "name": "Cinder Hatchling",
+    "cost": 1,
+    "faction": "Draconic Zealots",
+    "traits": [
+      "Rangers"
+    ],
+    "baseStats": {
+      "hp": 475,
+      "atk": 46,
+      "def": 15,
+      "mdef": 15
+    },
+    "skill": {
+      "name": "Ember Spit",
+      "desc": "Spits a fireball at the farthest enemy, dealing `[140% / 205% / 320%]` of ATK as Physical Damage and **burning** the target for **15 True Damage per second** for **5s**.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Wyvern Rider",
+    "cost": 2,
+    "faction": "Draconic Zealots",
+    "traits": [
+      "Cavalry Knight"
+    ],
+    "baseStats": {
+      "hp": 725,
+      "atk": 62,
+      "def": 35,
+      "mdef": 25
+    },
+    "skill": {
+      "name": "Dive Strike",
+      "desc": "Swoops from above on a dive, dealing `[175% / 255% / 400%]` of ATK as Physical Damage and **knocking the target back 1 hex**.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "Dragon Priest",
+    "cost": 3,
+    "faction": "Draconic Zealots",
+    "traits": [
+      "High Clerics",
+      "Architect"
+    ],
+    "baseStats": {
+      "hp": 725,
+      "atk": 42,
+      "def": 25,
+      "mdef": 35
+    },
+    "skill": {
+      "name": "Dragon's Breath",
+      "desc": "Breathes a warm restorative wind, healing the **3 allied units** in the front rows for `[180 / 310 / 500]` HP each.",
+      "manaInfo": "(20/90)"
+    }
+  },
+  {
+    "name": "Scale Zealot",
+    "cost": 4,
+    "faction": "Draconic Zealots",
+    "traits": [
+      "Vanguard Berserkers",
+      "Runesmith"
+    ],
+    "baseStats": {
+      "hp": 1025,
+      "atk": 88,
+      "def": 48,
+      "mdef": 38
+    },
+    "skill": {
+      "name": "Draconic Frenzy",
+      "desc": "Channels draconic fury, dealing `[255% / 375% / 580%]` of ATK as Physical Damage in a **cone** in front of the caster. Each enemy hit grants the caster **+8% Attack Speed** for **4s** (stacks per enemy hit).",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "Cinder Dragon",
+    "cost": 5,
+    "faction": "Draconic Zealots",
+    "traits": [
+      "Vanguard Berserkers",
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 1350,
+      "atk": 112,
+      "def": 65,
+      "mdef": 62
+    },
+    "skill": {
+      "name": "Inferno Breath",
+      "desc": "Rears back and unleashes a massive fire cone, dealing `[320% / 470% / 780%]` of AP as Magic Damage to all enemies in the cone and **burning** their **Max HP by 8% as True Damage** over **4s**.",
+      "manaInfo": "(30/100)"
+    }
+  },
+  {
+    "name": "Sprout Sprite",
+    "cost": 1,
+    "faction": "Elemental Fairy",
+    "traits": [
+      "High Clerics"
+    ],
+    "baseStats": {
+      "hp": 500,
+      "atk": 36,
+      "def": 20,
+      "mdef": 25
+    },
+    "skill": {
+      "name": "Dewdrop",
+      "desc": "Sprinkles healing dew, restoring `[130 / 225 / 360]` HP to the lowest HP ally.",
+      "manaInfo": "(30/90)"
+    }
+  },
+  {
+    "name": "Ember Pixie",
+    "cost": 1,
+    "faction": "Elemental Fairy",
+    "traits": [
+      "Rangers"
+    ],
+    "baseStats": {
+      "hp": 450,
+      "atk": 52,
+      "def": 15,
+      "mdef": 15
+    },
+    "skill": {
+      "name": "Spark Flare",
+      "desc": "Hurls a burning orb at the farthest enemy, dealing `[145% / 215% / 335%]` of ATK as Physical Damage.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Wave Sylph",
+    "cost": 2,
+    "faction": "Elemental Fairy",
+    "traits": [
+      "Chrono Scholar"
+    ],
+    "baseStats": {
+      "hp": 550,
+      "atk": 42,
+      "def": 20,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Splash",
+      "desc": "Launches a water orb at the nearest enemy, dealing `[170% / 250% / 390%]` of AP as Magic Damage and **delaying their next basic attack by 35%**.",
+      "manaInfo": "(0/85)"
+    }
+  },
+  {
+    "name": "Pebble Gnome",
+    "cost": 3,
+    "faction": "Elemental Fairy",
+    "traits": [
+      "Royal Guard",
+      "Runesmith"
+    ],
+    "baseStats": {
+      "hp": 875,
+      "atk": 58,
+      "def": 52,
+      "mdef": 42
+    },
+    "skill": {
+      "name": "Hard Harden",
+      "desc": "Petrifies skin, gaining `[35 / 62 / 100]` flat DEF and MDEF for **5s** and **taunting** all enemies within 2 hexes.",
+      "manaInfo": "(0/100)"
+    }
+  },
+  {
+    "name": "Gale Sylph",
+    "cost": 4,
+    "faction": "Elemental Fairy",
+    "traits": [
+      "Rogues",
+      "Gladiators"
+    ],
+    "baseStats": {
+      "hp": 825,
+      "atk": 80,
+      "def": 30,
+      "mdef": 30
+    },
+    "skill": {
+      "name": "Wind Blade",
+      "desc": "Vanishes in a gust and reappears behind the target, dealing `[255% / 375% / 580%]` of ATK as Physical Damage and **knocking the target back 1 hex**.",
+      "manaInfo": "(0/65)"
+    }
+  },
+  {
+    "name": "Primordial Fairy Queen",
+    "cost": 5,
+    "faction": "Elemental Fairy",
+    "traits": [
+      "Card Gamblers",
+      "Architect"
+    ],
+    "baseStats": {
+      "hp": 1000,
+      "atk": 48,
+      "def": 30,
+      "mdef": 50
+    },
+    "skill": {
+      "name": "Tidal Fairy Wave",
+      "desc": "Commands all elemental energies, summoning a board-wide wave that deals `[280% / 415% / 680%]` of AP as Magic Damage to all enemies and **stunning** them for **1.5s**.",
+      "manaInfo": "(50/125)"
+    }
+  }
+]

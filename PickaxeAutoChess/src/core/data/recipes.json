@@ -1,0 +1,318 @@
+[
+  {
+    "result": "Sovereign's Edge",
+    "componentA": "Blunt Sword",
+    "componentB": "Blunt Sword",
+    "stats": {
+      "Physical Attack": 25
+    }
+  },
+  {
+    "result": "Sage's Spear",
+    "componentA": "Blunt Sword",
+    "componentB": "Mana Crystal",
+    "stats": {
+      "Physical Attack": 15,
+      "Mana Regen": 6
+    }
+  },
+  {
+    "result": "Aether Blade",
+    "componentA": "Blunt Sword",
+    "componentB": "Magic Orb",
+    "stats": {
+      "Physical Attack": 15,
+      "Magic Attack": 15
+    }
+  },
+  {
+    "result": "Colossus Sunderer",
+    "componentA": "Blunt Sword",
+    "componentB": "Bow",
+    "stats": {
+      "Physical Attack": 15,
+      "Attack Speed": 25
+    }
+  },
+  {
+    "result": "Gloomward Shroud",
+    "componentA": "Blunt Sword",
+    "componentB": "Chestplate",
+    "stats": {
+      "Physical Attack": 15,
+      "DEF": 35
+    }
+  },
+  {
+    "result": "Vampiric Greatsword",
+    "componentA": "Blunt Sword",
+    "componentB": "Cloak",
+    "stats": {
+      "Physical Attack": 15,
+      "MDEF": 35
+    }
+  },
+  {
+    "result": "Ruinous Edge",
+    "componentA": "Blunt Sword",
+    "componentB": "Dagger",
+    "stats": {
+      "Physical Attack": 15,
+      "Critical Chance": 30
+    }
+  },
+  {
+    "result": "Hero's Crest",
+    "componentA": "Blunt Sword",
+    "componentB": "Belt",
+    "stats": {
+      "Physical Attack": 15,
+      "HP": 250
+    }
+  },
+  {
+    "result": "Aura of Clarity",
+    "componentA": "Mana Crystal",
+    "componentB": "Mana Crystal",
+    "stats": {
+      "Mana Regen": 12
+    }
+  },
+  {
+    "result": "Archmage's Codex",
+    "componentA": "Mana Crystal",
+    "componentB": "Magic Orb",
+    "stats": {
+      "Mana Regen": 6,
+      "Magic Attack": 20
+    }
+  },
+  {
+    "result": "Stormcharged Bow",
+    "componentA": "Mana Crystal",
+    "componentB": "Bow",
+    "stats": {
+      "Mana Regen": 6,
+      "Attack Speed": 25
+    }
+  },
+  {
+    "result": "Vanguard's Vow",
+    "componentA": "Mana Crystal",
+    "componentB": "Chestplate",
+    "stats": {
+      "Mana Regen": 6,
+      "DEF": 35
+    }
+  },
+  {
+    "result": "Aura of Redemption",
+    "componentA": "Mana Crystal",
+    "componentB": "Cloak",
+    "stats": {
+      "Mana Regen": 6,
+      "MDEF": 35
+    }
+  },
+  {
+    "result": "Chalice of Justice",
+    "componentA": "Mana Crystal",
+    "componentB": "Dagger",
+    "stats": {
+      "Mana Regen": 6,
+      "Critical Chance": 30
+    }
+  },
+  {
+    "result": "Guardian's Pendant",
+    "componentA": "Mana Crystal",
+    "componentB": "Belt",
+    "stats": {
+      "Mana Regen": 6,
+      "HP": 250
+    }
+  },
+  {
+    "result": "Archmage's Crown",
+    "componentA": "Magic Orb",
+    "componentB": "Magic Orb",
+    "stats": {
+      "Magic Attack": 30
+    }
+  },
+  {
+    "result": "Berserker's Glaive",
+    "componentA": "Magic Orb",
+    "componentB": "Bow",
+    "stats": {
+      "Magic Attack": 15,
+      "Attack Speed": 25
+    }
+  },
+  {
+    "result": "Crown of Valor",
+    "componentA": "Magic Orb",
+    "componentB": "Chestplate",
+    "stats": {
+      "Magic Attack": 15,
+      "DEF": 35
+    }
+  },
+  {
+    "result": "Static Ward",
+    "componentA": "Magic Orb",
+    "componentB": "Cloak",
+    "stats": {
+      "Magic Attack": 15,
+      "MDEF": 35
+    }
+  },
+  {
+    "result": "Spellweaver's Gloves",
+    "componentA": "Magic Orb",
+    "componentB": "Dagger",
+    "stats": {
+      "Magic Attack": 15,
+      "Critical Chance": 30
+    }
+  },
+  {
+    "result": "Burning Grimoire",
+    "componentA": "Magic Orb",
+    "componentB": "Belt",
+    "stats": {
+      "Magic Attack": 15,
+      "HP": 250
+    }
+  },
+  {
+    "result": "Marksman's Longbow",
+    "componentA": "Bow",
+    "componentB": "Bow",
+    "stats": {
+      "Attack Speed": 50
+    }
+  },
+  {
+    "result": "Titan's Resolve",
+    "componentA": "Bow",
+    "componentB": "Chestplate",
+    "stats": {
+      "Attack Speed": 25,
+      "DEF": 35
+    }
+  },
+  {
+    "result": "Zephyr's Tempest",
+    "componentA": "Bow",
+    "componentB": "Cloak",
+    "stats": {
+      "Attack Speed": 25,
+      "MDEF": 35
+    }
+  },
+  {
+    "result": "Shredding Arrow",
+    "componentA": "Bow",
+    "componentB": "Dagger",
+    "stats": {
+      "Attack Speed": 25,
+      "Critical Chance": 30
+    }
+  },
+  {
+    "result": "Stinger Bow",
+    "componentA": "Bow",
+    "componentB": "Belt",
+    "stats": {
+      "Attack Speed": 25,
+      "HP": 250
+    }
+  },
+  {
+    "result": "Thornmail Vest",
+    "componentA": "Chestplate",
+    "componentB": "Chestplate",
+    "stats": {
+      "DEF": 80
+    }
+  },
+  {
+    "result": "Gargoyle Stoneplate",
+    "componentA": "Chestplate",
+    "componentB": "Cloak",
+    "stats": {
+      "DEF": 45,
+      "MDEF": 45
+    }
+  },
+  {
+    "result": "Stalwart Shield",
+    "componentA": "Chestplate",
+    "componentB": "Dagger",
+    "stats": {
+      "DEF": 35,
+      "Critical Chance": 30
+    }
+  },
+  {
+    "result": "Sunfire Cape",
+    "componentA": "Chestplate",
+    "componentB": "Belt",
+    "stats": {
+      "DEF": 35,
+      "HP": 250
+    }
+  },
+  {
+    "result": "Dragon's Scale",
+    "componentA": "Cloak",
+    "componentB": "Cloak",
+    "stats": {
+      "MDEF": 80
+    }
+  },
+  {
+    "result": "Mithril Cloak",
+    "componentA": "Cloak",
+    "componentB": "Dagger",
+    "stats": {
+      "MDEF": 35,
+      "Critical Chance": 30
+    }
+  },
+  {
+    "result": "Evenshroud",
+    "componentA": "Cloak",
+    "componentB": "Belt",
+    "stats": {
+      "MDEF": 35,
+      "HP": 250
+    }
+  },
+  {
+    "result": "Gambler's Dice",
+    "componentA": "Dagger",
+    "componentB": "Dagger",
+    "stats": {
+      "Critical Chance": 60
+    }
+  },
+  {
+    "result": "Shattering Hammer",
+    "componentA": "Dagger",
+    "componentB": "Belt",
+    "stats": {
+      "Critical Chance": 30,
+      "HP": 250
+    }
+  },
+  {
+    "result": "Warmog's Armor",
+    "componentA": "Belt",
+    "componentB": "Belt",
+    "stats": {
+      "HP": 500
+    }
+  }
+]

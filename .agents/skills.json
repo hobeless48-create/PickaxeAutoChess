@@ -1,0 +1,17 @@
+{
+  "entries": [
+    { "path": "D:/AetherisCore/Ether/skills/game_development_modding" },
+    { "path": "D:/AetherisCore/Ether/skills/web_backend_frontend" }
+  ],
+  "pinned_context": {
+    "note": "Game dev skill files are flat .md files (not SKILL.md folders). Read them directly via view_file when their domain matches the user request.",
+    "primary_skills": [
+      "D:/AetherisCore/Ether/skills/game_development_modding/game-design.md",
+      "D:/AetherisCore/Ether/skills/game_development_modding/game-balance.md",
+      "D:/AetherisCore/Ether/skills/game_development_modding/game-mechanics.md",
+      "D:/AetherisCore/Ether/skills/game_development_modding/game-web.md",
+      "D:/AetherisCore/Ether/skills/game_development_modding/game-multiplayer.md",
+      "D:/AetherisCore/Ether/skills/game_development_modding/game-narrative.md"
+    ]
+  }
+}

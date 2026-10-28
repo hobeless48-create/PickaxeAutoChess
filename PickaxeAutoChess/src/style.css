@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@500;700;800;900&display=swap');
+
+:root {
+  font-family: 'Inter', 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: dark;
+  --bg-dark: #0b0e14;
+  --glass-bg: rgba(15, 23, 42, 0.75);
+  --glass-card-bg: rgba(30, 41, 59, 0.6);
+  --glass-border-cyan: rgba(56, 189, 248, 0.3);
+  --glass-border-gold: rgba(251, 191, 36, 0.4);
+  --glass-border-purple: rgba(168, 85, 247, 0.4);
+  --glass-border-subtle: rgba(255, 255, 255, 0.12);
+  --ease-out-cubic: cubic-bezier(0.16, 1, 0.3, 1);
+  --glow-cyan: 0 0 20px rgba(56, 189, 248, 0.25);
+  --glow-gold: 0 0 20px rgba(251, 191, 36, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  user-select: none;
+  background-color: var(--bg-dark);
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glassmorphism Panel Base */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border-subtle);
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s var(--ease-out-cubic), opacity 0.3s var(--ease-out-cubic), border-color 0.3s var(--ease-out-cubic), box-shadow 0.3s var(--ease-out-cubic);
+}
+
+.glass-panel-cyan {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border-cyan);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), var(--glow-cyan), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+
+.glass-panel-gold {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border-gold);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), var(--glow-gold), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+
+/* Glass Card */
+.glass-card {
+  background: var(--glass-card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border-subtle);
+  border-radius: 12px;
+  transition: transform 0.25s var(--ease-out-cubic), border-color 0.25s var(--ease-out-cubic), box-shadow 0.25s var(--ease-out-cubic), background-color 0.25s var(--ease-out-cubic);
+}
+
+.glass-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 15px rgba(56, 189, 248, 0.2);
+}
+
+/* Glass Buttons */
+button {
+  font-family: 'Inter', system-ui, sans-serif;
+  transition: all 0.2s var(--ease-out-cubic);
+  outline: none;
+}
+
+button:hover {
+  filter: brightness(1.15);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Custom Scrollbar for Compendium & Panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Animations */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes roundBannerAnim {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -60%) scale(0.85);
+  }
+  15% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  85% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -40%) scale(0.95);
+  }
+}
+
+@keyframes victoryDefeatAnim {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  30% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.45);
+  }
+}
+
+/* Round Announcement Banner Overlay */
+.round-announcement-banner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 48px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(56, 189, 248, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 30px rgba(56, 189, 248, 0.3);
+  z-index: 4500;
+  pointer-events: none;
+  animation: roundBannerAnim 2.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Victory / Defeat Announcement Banner Overlay */
+.outcome-banner-victory {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 24px 56px;
+  background: rgba(16, 185, 129, 0.18);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 2px solid #10b981;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(16, 185, 129, 0.4);
+  z-index: 4600;
+  pointer-events: none;
+  animation: victoryDefeatAnim 2.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.outcome-banner-defeat {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 24px 56px;
+  background: rgba(239, 68, 68, 0.18);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 2px solid #ef4444;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(239, 68, 68, 0.4);
+  z-index: 4600;
+  pointer-events: none;
+  animation: victoryDefeatAnim 2.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+

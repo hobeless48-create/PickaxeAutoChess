@@ -1,0 +1,419 @@
+{
+  "Human": {
+    "desc": "Adaptable and ambitious, humans gain power directly from their commander's growth.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Humans gain +30 Max Health and +3% Physical & Magic Attack per Player Level."
+      },
+      {
+        "req": 5,
+        "desc": "Humans gain +60 Max Health and +6% Physical & Magic Attack per Player Level."
+      },
+      {
+        "req": 7,
+        "desc": "[Needs 1 Crest] All allied units gain 50% of the Human level-scaling bonuses. Humans gain +10% Damage Amplification and 20% Max HP."
+      }
+    ]
+  },
+  "Ancient": {
+    "desc": "Mystical relic-keepers whose power grows when they fall, storing energy in a sacred chest.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Gain **+2 stacks** every time an allied unit dies (any unit, not just Ancients), and gain **$5 \\times \\text{current lose streak}$** when you lose a round."
+      },
+      {
+        "req": 4,
+        "desc": "Gain **+5 stacks** every time an allied unit dies, and gain **$7 \\times \\text{current lose streak}$** when you lose a round."
+      },
+      {
+        "req": 5,
+        "desc": "Gain **+7 stacks** every time an allied unit dies, and gain **$10 \\times \\text{current lose streak}$** when you lose a round."
+      },
+      {
+        "req": 6,
+        "desc": "Gain **+10 stacks** every time an allied unit dies, and gain **$15 \\times \\text{current lose streak}$** when you lose a round."
+      }
+    ]
+  },
+  "Noble": {
+    "desc": "Haughty royalty and wealthy merchant lords who buy victory.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Gain +1 Gold at end of even rounds."
+      },
+      {
+        "req": 6,
+        "desc": "Interest limit increases to 70 Gold (+1 gold for every 10g saved; 40g gives +5g interest, 70g maxes at 8g interest). Nobles gain +1% Damage Amplification for every 2 Gold in your bank (max 40%). Every 2 interest gold earned at round end permanently grants Nobles +5 HP."
+      },
+      {
+        "req": 9,
+        "desc": "[Needs 2 Crests] At round end, gain 25% of your total gold balance. Damage Amplification max increases to 100%. Permanent HP gain increases to +20 HP per 2 interest gold."
+      }
+    ]
+  },
+  "Dwarven Forge": {
+    "desc": "Master smiths and engineers who upgrade the team's weaponry.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Grants a consumable *Ornate Hammer*. Use it on a unit to choose one of their completed items and upgrade it to an **Ornate Masterwork Artifact**, gaining a powerful secondary passive."
+      },
+      {
+        "req": 6,
+        "desc": "Upgrades up to 3 completed items on your board to Ornate Masterwork Artifacts. All Dwarves gain +50% effectiveness from all items equipped on them."
+      },
+      {
+        "req": 9,
+        "desc": "[Needs 2 Crests] All equipped items on Dwarves are upgraded to Ornate Artifacts. Dwarves gain +20 DEF and MDEF per equipped item."
+      }
+    ]
+  },
+  "Demonic Pact": {
+    "desc": "Dark cultists who sacrifice their own vital essence to summon the Abyss.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "When combat starts, the lowest-HP Demon is sacrificed, transferring their stats to other Demons as +20% Physical Attack and Magic Attack."
+      },
+      {
+        "req": 6,
+        "desc": "When 3 allied units die, summon a **Lesser Pit Lord** hex-construct with 1000 HP and 80 base damage onto the board."
+      },
+      {
+        "req": 9,
+        "desc": "[Needs 2 Crests] At the start of preparation phase, sacrifice **5 Player HP** (once) to permanently summon a **Great Demon Lord** (5-star Tier boss) into the combat team who inherits all active Demon synergy buffs."
+      }
+    ]
+  },
+  "Magic Tower": {
+    "desc": "Wizard orders channeling energy through conduits.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Every time an allied unit casts a skill, heal the nearest allies by 10% of the caster's Magic Attack (AP) stat."
+      },
+      {
+        "req": 6,
+        "desc": "Every time an allied unit casts their skill, it adds points equal to their gold cost to a global charge pool. When the pool reaches 50 points, summon a meteor dealing 10% current HP Magic Damage to all enemies."
+      },
+      {
+        "req": 9,
+        "desc": "[Needs 2 Crests] All skill casts add points equal to **10x** the unit's gold cost to the pool, triggering rapid meteor cascades."
+      }
+    ]
+  },
+  "Sylvan Elves": {
+    "desc": "Agile woodland archers and druids who blend into the brush.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Elves gain +15% Critical Chance and dodge 10% of basic attacks."
+      },
+      {
+        "req": 6,
+        "desc": "Elves gain +30% Critical Chance and dodge 20% of basic attacks. Every critical strike dealt heals the lowest HP ally for 25% of that damage."
+      },
+      {
+        "req": 9,
+        "desc": "[Needs 2 Crests] Elves gain +50% Critical Chance. Any Critical Chance exceeding 100% is converted into Critical Damage at a **1:5 ratio** (+1% CC = +5% Critical Damage). Healing on critical strike increases from 25% to 100% of damage dealt."
+      }
+    ]
+  },
+  "Necropolis Undead": {
+    "desc": "Legions of bone and decay that refuse to die.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "The first allied unit to die is resurrected as a *Skeleton Soldier* with 50% HP and 50% Base Damage."
+      },
+      {
+        "req": 6,
+        "desc": "The first two allied units to die are resurrected, and Undead units gain +10% Lifesteal."
+      },
+      {
+        "req": 9,
+        "desc": "[Needs 2 Crests] All dead allied units are resurrected with 10% of their original health and 50% base damage. This cycle continues until every unit on the board is dead (summoned skeletons do not deal damage to player HP on victory)."
+      }
+    ]
+  },
+  "Draconic Zealots": {
+    "desc": "Worshipers of ancient dragons who incubate massive dragon eggs.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Spawn a *Golden Dragon Egg* on your bench. It gains 1 hatch charge per round. Hatches after 4 rounds into a Drake Hatchling."
+      },
+      {
+        "req": 5,
+        "desc": "The egg hatches faster (2 charges per round). Draconic units gain +15% Physical Attack."
+      },
+      {
+        "req": 7,
+        "desc": "The hatched Dragon evolves into an Elder Wyvern, gaining fire-breath AoE skills."
+      },
+      {
+        "req": 9,
+        "desc": "[Needs 2 Crests] The Dragon ascends to a Legendary Cinder-Dragon, dealing 33% True Damage and gaining immune status to all crowd control."
+      }
+    ]
+  },
+  "Elemental Fairy": {
+    "desc": "Mystical spirits of nature that summon and merge with a massive golem.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Summon 1 **Elemental Golem** (Tank role) onto the board. All enemies have their Attack Speed slowed by 15%."
+      },
+      {
+        "req": 5,
+        "desc": "Any Fairy unit placed adjacent (within 1 hex) to the Elemental Golem during the preparation phase merges into the Golem. For every Fairy merged:"
+      },
+      {
+        "req": 7,
+        "desc": "[Needs 1 Crest] Enemy Attack Speed slow increases to 33%. Tidal Wave triggers every 5 seconds and shreds Magic Defense (MDEF) by 33%. Golem base stats per merged Fairy increase from +20% to **+40%**, and all merged Fairy passive effects are **doubled** (e.g. Nature Fairy grants 2% HP regen)."
+      }
+    ]
+  },
+  "Architect": {
+    "desc": "Master builders who direct fortifications and battle facilities.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Active Facilities have their Construction Phase delay reduced by **1 round**. Facilities gain +20 Max Health."
+      },
+      {
+        "req": 4,
+        "desc": "Grants **+1 extra Facility capacity** (maximum of 4). Active Facilities heal adjacent units for 3% of their max HP per second."
+      },
+      {
+        "req": 6,
+        "desc": "If a Facility is destroyed, the **Player HP damage penalty is completely negated**. Active Facilities gain +40 DEF and MDEF, and their offensive attack rates are doubled."
+      }
+    ]
+  },
+  "Mercenary": {
+    "desc": "Blades-for-hire who fight for gold and glory.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Scoring a round victory yields +1 \"Bounty Box\" (can open for 1-3 Gold or an item component)."
+      },
+      {
+        "req": 4,
+        "desc": "Mercenary units deal +15% Damage Amplification. At the start of preparation phase, a temporary random high-tier unit is offered in the shop for free, which stays on your board for exactly 1 round."
+      },
+      {
+        "req": 6,
+        "desc": "Winning a round grants a completed item component. Each Mercenary unit gains +5% Lifesteal per item equipped on them."
+      }
+    ]
+  },
+  "Royal Guard": {
+    "desc": "Heavily armored knights sworn to protect the Crown.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "At combat start, the highest-cost unit gains +200 HP and +20 DEF. When the King/Queen takes damage, Guards share 15% of that damage."
+      },
+      {
+        "req": 4,
+        "desc": "The King/Queen gains +500 HP, +40 DEF, and is immune to Crowd Control. Guards share 25% of all damage dealt to the King/Queen and gain +30 DEF."
+      },
+      {
+        "req": 6,
+        "desc": "If the King/Queen dies, Guards gain +100% Physical Attack and 33% Damage Reduction for the rest of combat."
+      }
+    ]
+  },
+  "Plague Alchemist": {
+    "desc": "Corrupted apothecaries spreading biochemical toxins.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Alchemists' attacks apply *Plague* for 5 seconds. Plague deals 1% max HP as True Damage per second and applies a 33% healing reduction."
+      },
+      {
+        "req": 4,
+        "desc": "Plague now spreads to adjacent enemies upon target death. Alchemists gain +15% Magic Attack."
+      },
+      {
+        "req": 6,
+        "desc": "Plagued units have their Physical and Magic Defenses shredded by 33%. Alchemists heal for 30% of all Plague damage dealt."
+      }
+    ]
+  },
+  "Chrono Scholar": {
+    "desc": "Mages who alter timeline pacing.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Every 6 seconds, increase all allies' Attack Speed by +15% (stacks up to 3 times)."
+      },
+      {
+        "req": 4,
+        "desc": "At combat start, increase all allies' starting mana by +20, and delay enemy starting mana regeneration by 2 seconds."
+      },
+      {
+        "req": 6,
+        "desc": "Once per combat, when an ally falls below 20% HP, freeze time for all enemies in a 2-hex radius for 2.5 seconds (Stun state)."
+      }
+    ]
+  },
+  "Gladiators": {
+    "desc": "Arena fighters who thrive on individual combat.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Gladiators deal +10% Damage Amplification. If a Gladiator has no adjacent allies at combat start, they gain a shield equal to 15% Max HP."
+      },
+      {
+        "req": 4,
+        "desc": "Gladiators execute target enemies who fall below 15% health, instantly dealing True Damage equal to their remaining HP."
+      },
+      {
+        "req": 6,
+        "desc": "Executes trigger at 25% health. Scoring an execution instantly restores 50 mana to the Gladiator."
+      }
+    ]
+  },
+  "Rogues": {
+    "desc": "Cloaked assassins who strike from the shadows.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "At combat start, Rogues leap to the furthest hex in the enemy backline. Rogues gain +15% Critical Damage."
+      },
+      {
+        "req": 4,
+        "desc": "Rogues' critical strikes reduce the target's Physical Defense (DEF) by 33% for 5 seconds."
+      },
+      {
+        "req": 6,
+        "desc": "Scoring a critical strike grants the Rogue stealth for 1 second, resetting enemy targeting aggro."
+      }
+    ]
+  },
+  "High Clerics": {
+    "desc": "Divine priests channeling healing waves.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Increase all incoming healing and shielding effects on your board by 20%."
+      },
+      {
+        "req": 4,
+        "desc": "Every 6 seconds, Clerics emit a holy burst, healing all allies within 2 hexes for 8% of their max HP."
+      },
+      {
+        "req": 6,
+        "desc": "Holy bursts also grant healed allies a temporary shield equal to 10% of their Max HP for 4 seconds."
+      }
+    ]
+  },
+  "Cavalry Knight": {
+    "desc": "Mounted warriors who charge into battle.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Cavalry units move 50% faster. At combat start, they charge their target, dealing Physical Damage equal to 10% of their Max HP and knocking them back 1 hex."
+      },
+      {
+        "req": 4,
+        "desc": "The charge stuns the target for 1.5 seconds and shreds their DEF by 33%."
+      }
+    ]
+  },
+  "Beast Tamer": {
+    "desc": "Forest guardians who fight alongside trained wild beasts.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Summon a *Tamed Wolf* companion with 500 HP and 40 Base Damage at combat start."
+      },
+      {
+        "req": 3,
+        "desc": "The Wolf gains +50% HP and basic attacks stun targets for 0.5 seconds."
+      },
+      {
+        "req": 4,
+        "desc": "Summon a second wolf. All beasts gain +33% Attack Speed."
+      }
+    ]
+  },
+  "Runesmith": {
+    "desc": "Enchanters carving defensive runes onto armor.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "At combat start, frontline allies gain a shield equal to 15% of their Max HP."
+      },
+      {
+        "req": 4,
+        "desc": "While shielded, units reflect 33% of incoming basic attack damage back to attackers."
+      }
+    ]
+  },
+  "Card Gamblers": {
+    "desc": "Mages using card-magic to draw random combat shifts.",
+    "thresholds": [
+      {
+        "req": 1,
+        "desc": "Draws one random card at round start:"
+      },
+      {
+        "req": 3,
+        "desc": "Draws two cards. Effects apply to all allied units."
+      }
+    ]
+  },
+  "Doom Harbingers": {
+    "desc": "Dark executioners wielding scythes of death.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Harbingers deal +10% Damage Amplification. When they kill a unit, they gain +5% Physical Attack for the rest of combat."
+      },
+      {
+        "req": 4,
+        "desc": "Harbingers execute targets who fall below 15% HP. Scoring an execution heals the Harbinger for 33% of their missing HP."
+      }
+    ]
+  },
+  "Vanguard Berserkers": {
+    "desc": "Wild fighters who grow stronger as health drops.",
+    "thresholds": [
+      {
+        "req": 3,
+        "desc": "Gain +1% Attack Speed for every 2% missing HP."
+      },
+      {
+        "req": 5,
+        "desc": "Gain +1% Attack Speed and +0.5% Physical Attack for every 1% missing HP."
+      },
+      {
+        "req": 7,
+        "desc": "[Needs 1 Crest] At 20% HP, Berserkers become immune to death for 3 seconds (occurs once per combat)."
+      }
+    ]
+  },
+  "Rangers": {
+    "desc": "Elite archers specializing in rapid long-range firing.",
+    "thresholds": [
+      {
+        "req": 2,
+        "desc": "Rangers gain +1 Hex attack range."
+      },
+      {
+        "req": 4,
+        "desc": "Every 3 seconds, Rangers gain +15% Attack Speed (stacks up to 5 times)."
+      },
+      {
+        "req": 6,
+        "desc": "[Needs 1 Crest] Stacking Attack Speed increased to +25%. Rangers' critical hits deal +33% bonus True Damage."
+      }
+    ]
+  }
+}
